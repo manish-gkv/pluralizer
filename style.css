@@ -1,0 +1,136 @@
+body {
+    background-color: #CAD2C5;
+    margin: 0;
+}
+
+.header {
+    background-color: #52489C;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+#nav-bar {
+    float: right;
+    width: 75%;
+}
+
+#titl {
+    float: left;
+    width: 25%;
+    margin-top: -25px;
+    color: white;
+}
+
+.nav a {
+    float: right;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    color: rgb(180, 173, 173);
+    letter-spacing: 2px;
+    text-decoration: none;
+    position: sticky;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav a:hover {
+    cursor: pointer;
+    font-size: large;
+    color: white;
+}
+
+.title h1 {
+    padding-left: 50px;
+    padding-top: 5px;
+
+}
+
+.title p {
+    margin-top: -19px;
+    padding-left: 50px;
+    text-align: left;
+    letter-spacing: 2px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.combo{
+    width: 1170px;
+    height: 500px;
+    margin: auto;
+    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    
+}
+.card{
+    background-color: #EBEBEB;
+    text-align: center;
+    
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card:hover{
+    background-color: #84A98C;
+    color: white;
+}
+#project{
+    width: 60%;
+}
+#about-project{
+    width: 35%;
+    margin: 10px;
+}
+.program-area{
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: xx-large;
+    margin: auto;
+}
+input{
+    width: 100%;
+    height: 35px;
+    font-size: large;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button{
+    border-color: transparent;
+    font-size: x-large;
+    text-align: center;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 200px;
+    background-color: #52489C;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button:hover{
+    cursor: pointer;
+    
+
+}
+#about-project p{
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media only screen and (min-width:200px) and (max-width:767px){
+    .combo{
+        width: 100%;
+        flex-direction: column;
+    }
+}

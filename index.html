@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLURALIZER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="home" class="header">
+        <div class="title" id="titl">
+            <h1>Project 2</h1>
+            <p>226301127</p>
+            <p>Manish Kumar Akela</p>
+        </div>
+        <div class="nav" id="nav-bar">
+            <a href="#home">Home</a>
+            <a href="#about-me">About me</a>
+            <a href="#about-project">About Project</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="combo">
+            <div class="card" id="project">
+                <h1>Program</h1>
+                <div class="program-area">
+                    <label for="number">Enter Number:</label><br>
+                    <input type="number" name="number" id="num"><br>
+                    <label for="noun">Enter Noun:</label><br>
+                    <input type="text" name="noun" id="noun"><br><br>
+                    <button onclick="pluralizer()">PLURALIZE</button><br>
+                    <label for="output">Output:</label><br>
+                    <input type="text" name="output" id="output" readonly>
+                </div>
+            </div>
+            <div class="card" id="about-project">
+                <p style="text-align: center;">Project 2</p>
+                <h1>PLURALIZER</h1>
+                <p>The Pluraliser: Instantly converts singular nouns to their plural forms, simplifying language usage. Its intuitive interface ensures a hassle-free experience for users of all levels. This tool is a valuable asset for writers, educators, and anyone striving for grammatical precision. With its accuracy and efficiency, it streamlines the process of pluralization, saving time and effort. The Pluraliser is the go-to solution for ensuring proper plural forms in your writing and communication.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
